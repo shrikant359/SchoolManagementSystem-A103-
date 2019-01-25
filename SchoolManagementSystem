@@ -5,5 +5,20 @@ int main()
 printf("*****************WELCOME***************************");
 printf("This is Student Module");
 printf("===================================================");
+int id;
+string name;
+int roll;
+printf("enter the Student name:");
+scanf("%s",&name);
+printf("enter the roll no.:");
+scanf("%d,&roll);
+printf("enter the student id:");
+scanf("%d,&id);
+
+printf("**************************STUDENTS DETAILS***************);
+printf("student name is:%s",name);
+printf("student roll no. is:%d",roll);
+printf("student id is:%d",id);
+printf("=======================================================");
 getch();
 }
