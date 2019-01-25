@@ -3,7 +3,7 @@
 int main()
 {
 printf("*****************WELCOME***************************");
-printf("This is SCHOOL MANAGEMENT SYSTEM");
+printf("This is Student Module");
 printf("===================================================");
 getch();
 }
