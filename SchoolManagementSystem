@@ -3,7 +3,33 @@
 int main()
 {
 printf("*****************WELCOME***************************");
-printf("This is Student Module");
+printf("This is Attandance Module Module");
 printf("===================================================");
+int roll;
+int p;
+int a;
+int i;
+String name;
+printf("enter the data for the students:");
+for(i=0;i<2;i++)
+{
+printf("enter the roll no.:");
+scanf("%d",&roll);
+printf("enter the name:");
+scanf("%s",&name);
+printf("enter the total days:");
+printf("enter the present days:");
+scanf("%s",&p);
+printf("enter the absent days:");
+scanf("%s",&a);
+}
+printf("Data for STUDENTS");
+for(i=0;i<2;i++)
+{
+printf("roll no. is:"%d",roll);
+printf("name is:"%s",name);
+printf("present days is:"%d",p);
+printf("absent days is:"%d",a);
+}
 getch();
 }
