@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("*****************WELCOME***************************");
+printf("This is SCHOOL MANAGEMENT SYSTEM");
+printf("===================================================");
+getch();
+}
